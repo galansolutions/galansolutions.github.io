@@ -7,7 +7,7 @@
   'unsafe-eval': all JS is same-origin (theme-init.js, app.js) and all CSS is
   same-origin (styles.css) or Google Fonts. Any injected inline <script>,
   on*="" handler, or inline style is refused by the browser.
-  Note: frame-ancestors / X-Frame-Options / Permissions-Policy / COOP/COEP/CORP
+  Note: frame-ancestors / X-Frame-Options / Permissions-Policy / COOP/COEP/hCORP
   cannot be set on GitHub Pages (ignored in <meta>, no custom headers). See
   SECURITY.md. Clickjacking is mitigated by the framebusting guard in app.js.
 -->
@@ -32,7 +32,6 @@
 
 <!-- NAV -->
 <header class="nav" id="nav" role="banner">
-  <a href="./" class="nav-brand"><span class="nav-brand-text">Galan <b>Solutions</b></span></a>
   <nav class="nav-links" role="navigation" aria-label="Primary">
     <a href="./" class="nav-a cur" data-sec="home">Home</a>
     <a href="services.html" class="nav-a" data-sec="services">Services</a>
